@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Capacidad de Endeudamiento y Ahorro | vyruz</title>
+</head>
+<body>
+    <header>
+        <h1>Calcular la capacidad de Endeudamiento y Ahorro</h1>
+    </header>
+    <main>
+        <form action="">
+            <label for="inputIngresos">
+                <span>Ingresos Totales: </span>
+                <input type="number" id="inputIngresos">
+            </label>
+            <label for="inputGastos">
+                <span>Gastos Fijos: </span>
+                <input type="number" id="inputGastos">
+            </label>
+            <input type="button" value="Calcular" onclick="executeEndeudamientoAhorro();">
+        </form>
+    
+        <div class="show-results">
+            <p id="endeudamiento"></p>
+            <p id="ahorro"></p>
+        </div>
+    </main>
+
+    <script src="./capacidadAhorro.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Figuras geometricas | JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras geometricas</h1>
+        <h2>JavaScript practico | Taller 1</h2>
+    </header>
+    <section class="cuadrado">
+        <h3>Calculadora de area y perimetro del cuadrado</h3>
+        <form action="">
+            <label for="inputCuadrado">
+                <span>Lado del cuadrado: </span>
+                <input type="number" id="inputCuadrado" class="" placeholder="Lado">
+            </label>
+            <button type="button" onclick="calcuPerimetroCu()">Calcular Perimetro</button>
+            <button type="button" onclick="calcuAreaCu()">Calcular Area</button> 
+        </form>
+    </section>
+    <section class="triangulo">
+        <h3>Calculadora de area y perimetro del triangulo</h3>
+        <form action="">
+            <label for="inputTriangulo">
+                <span>Primer lado del triangulo: </span>
+                <input type="number" id="inputTriangulo" placeholder="Primer lado">
+            </label>
+            <label for="inputTrianguloDos">
+                <span>Segundo lado del triangulo: </span>
+                <input type="number" id="inputTrianguloDos" placeholder="Segundo lado">
+            </label>
+            <label for="inputTrianguloBase">
+                <span>Base del triangulo: </span>
+                <input type="number" id="inputTrianguloBase" placeholder="Base">
+            </label>
+            <label for="inputTrianguloAltura">
+                <span>Altura del triangulo: </span>
+                <input type="number" id="inputTrianguloAltura" placeholder="Altura">
+            </label>
+            <button type="button" onclick="calcuPerimetroTri()">Calcular Perimetro</button>
+            <button type="button" onclick="calcuAreaTri()">Calcular Area</button>
+        </form>
+    </section>
+    <section class="circulo">
+        <h3>Calculadora de area y perimetro del circulo</h3>
+        <form action="">
+            <label for="inputRadio">
+                <span>Radio del Circulo: </span>
+                <input type="number" id="inputRadio" placeholder="Radio">
+            </label>
+            <button type="button" onclick="calcuPerimetroCi()">Calcular Perimetro</button>
+            <button type="button" onclick="calcuAreaCi()">Calcular Area</button>
+        </form>
+    </section>
+
+    <script src="./figuras.js"></script>
+</body>
+</html>

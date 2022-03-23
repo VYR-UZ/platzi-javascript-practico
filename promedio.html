@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio | Javascript</title>
+</head>
+<body>
+    <header>
+        <h1>Media Mediana Moda</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Promedio</h2>
+            <label for="inputPromedio">
+                <span>Agrega valores numericos, separados por comas</span>
+                <input type="text" id="inputPromedio" placeholder="1, 2, 3 ...">
+            </label>
+            <input type="button" value="Calcular Promedio" onclick="calcPro();">
+            <p id="promedioAritmetica"></p>
+        </section>
+        <section>
+            <h2>Mediana</h2>
+            <label for="inputMediana">
+                <span>Agrega valores numericos, separados por comas</span>
+                <input type="text" id="inputMediana" placeholder="1, 2, 3 ...">
+            </label>
+            <button onclick="calcMediana();">Calcular Mediana</button>
+            <p id="mediana"></p>
+        </section>
+        <section>
+            <h2>Moda</h2>
+            <label for="inputModa">
+                <span>Agrega valores numericos, separados por comas</span>
+                <input type="text" id="inputModa" placeholder="1, 2, 3 ...">
+            </label>
+            <button onclick="calcModa();">Calcular Moda</button>
+            <p id="moda"></p>
+        </section>
+        <!--<section>
+            <h2>Ponderado</h2>
+            <label for="inputFor">
+                <span>Agrega Numero de Materias</span>
+                <input type="number" id="inputFor" placeholder="3 ... ">
+            </label>
+            <label for="inputPonderado">
+                <span>Agrega nombre de la materia, calificacion, credito</span>
+                <input type="text" id="inputPonderado" placeholder="Name, Note, Credit ...">
+            </label>
+            <button onclick="calcPonderado();">Calcular Ponderado</button>
+            <p id="ponderado"></p>
+        </section>-->
+    </main>
+
+    <script src="./promedio.js"></script>
+</body>
+</html>
